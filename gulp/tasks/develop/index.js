@@ -6,7 +6,7 @@ const gulp = require('gulp');
 
 const cheerio = require('gulp-cheerio');
 
-const config = require('../../config').index.development;
+const config = require('../../config').index;
 
 gulp.task('index', function () {
     gulp.src(config.src)

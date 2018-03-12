@@ -4,7 +4,7 @@
 
 const gulp = require('gulp');
 
-const config = require('../../config').lib.development;
+const config = require('../../config').lib;
 
 gulp.task('lib', function () {
     gulp.src(config.src)

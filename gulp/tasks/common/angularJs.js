@@ -44,7 +44,7 @@ const reName = require('gulp-rename');
 
 const gulpStripDebug = require('gulp-strip-debug');
 
-const config = require('../../config').js.development;
+const config = require('../../config').js;
 
 const gulpUglify = require('gulp-uglify');
 

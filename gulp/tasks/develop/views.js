@@ -5,7 +5,7 @@
 
 const gulp = require('gulp');
 
-const config = require('../../config').views.development;
+const config = require('../../config').views;
 
 gulp.task('views', function () {
     gulp.src(config.src)
