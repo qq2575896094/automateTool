@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "description": "This is a prject for angular.",
+  "main": "index.js",
+  "authors": [
+    "雨田"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "project"
+  ],
+  "homepage": "https://github.com/qq2575896094/automateTool",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.9",
+    "ionic": "^3.9.2"
+  }
+}

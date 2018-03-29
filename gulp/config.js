@@ -8,7 +8,7 @@ const httpProxyMiddleWare = require('http-proxy-middleware');
 
 const proxyConfig = require('../proxyConfig');
 
-const pathsConfig = require('./pathsConfig');
+const pathsConfig = require('./pathConfigs');
 
 
 module.exports = {
